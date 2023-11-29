@@ -46,7 +46,8 @@ Rails.application.configure do
   # config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   # Raise exceptions for disallowed deprecations.
   config.active_support.disallowed_deprecation = :raise
-
+  # Elasticsearch::Model.client = Elasticsearch::Client.new(url: ENV['ELASTICSEARCH_URL'] || 'http://localhost:3000')
+config.hosts << ".ngrok-free.app"
   # Tell Active Support which deprecation messages to disallow.
   config.active_support.disallowed_deprecation_warnings = []
 
