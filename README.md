@@ -21,3 +21,5 @@ https://blog.minthesize.com/stimulus-reflex-importmaps
 Adding Devise User Avatars
 https://deanin.com/blog/action-text/
 https://www.youtube.com/watch?v=BYvzLYRIZK4
+Adding ngrokv for connection:
+https://youtu.be/jWixLZgzOHM?feature=shared 
